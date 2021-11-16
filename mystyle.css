@@ -1,3 +1,59 @@
 body{
-background-color: white;
+
+}
+#page-wrapper{
+position: fixed;
+height: 100%;
+width: 100%;
+background-color: grey;
+margin: 0;
+left: 0;
+}
+
+#header{
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  left: 0;
+  align-items: flex-end;
+}
+
+#header-img{
+  position: relative;
+  width: 50%;
+  height: 40%;
+  padding-top: 20px;
+
+
+}
+
+#nav-bar{
+  position: relative;
+  background-color: white;
+  width: 75%;
+  height: 20%;
+  display: flex;
+
+}
+
+ul{
+  width:60%;
+  margin-left: auto;
+  margin-right: 0;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: flex-end;
+  color: black;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+#logo{
+  height: 60%;
+  width: 30%;
+  margin-left: 10px;
 }
