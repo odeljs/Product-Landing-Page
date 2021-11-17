@@ -57,3 +57,104 @@ ul{
   width: 30%;
   margin-left: 10px;
 }
+
+#content{
+  position: relative;
+  margin-top: 10%;
+  height: 100%;
+  width: 90%;
+  left: 5%;
+  right: 5%;
+  background-color: white;
+  border-radius: 5%;
+}
+
+#inner-container{
+  position: relative;
+  top: 5%;
+  background-color: white;
+  width: 80%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+h2{
+  text-align: center;
+}
+
+#email{
+  position: relative;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 12px;
+  height: 20px;
+}
+
+#input{
+  width: 100%;
+}
+
+#submit{
+  position: relative;
+  width: 20%;
+  height: 40px;
+  margin-left: 40%;
+  margin-right: 40%;
+  border: none;
+  background-color: orange;
+
+}
+
+#video{
+  position: relative;
+  width:50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 20px;
+}
+
+.grid{
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 20%;
+}
+
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+  height: 100%;
+  color: darkorange;
+}
+
+#features{
+  height: 60%;
+  width: 100%;
+}
+
+.fa, .fas{
+  font-weight: 900;
+}
+
+.desc{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0;
+
+}
+
+h3{
+  margin: 0;
+  font-size: 25px;
+}
+
+p{
+
+margin: 0;
+}
