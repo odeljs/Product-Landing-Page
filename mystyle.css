@@ -1,24 +1,23 @@
 body{
-
-}
-#page-wrapper{
-position: fixed;
-height: 100%;
-width: 100%;
-background-color: grey;
 margin: 0;
-left: 0;
+padding: 0;
+display: block;
+background-color: grey;
 }
 
 #header{
   display: flex;
   background-color: white;
-  flex-direction: row;
   position: fixed;
+  top: 0;
+  min-height: 75px;
   width: 100%;
-  margin: 0;
-  left: 0;
-  align-items: flex-end;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: medium;
+  z-index: 1;
 }
 
 #header-img{
@@ -58,29 +57,17 @@ ul{
   margin-left: 10px;
 }
 
-#content{
-  position: relative;
-  margin-top: 10%;
-  height: 100%;
-  width: 90%;
-  left: 5%;
-  right: 5%;
-  background-color: white;
-  border-radius: 5%;
-}
-
 #inner-container{
-  position: relative;
-  top: 5%;
   background-color: white;
-  width: 80%;
-  height: 80%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
-
-}
-h2{
-  text-align: center;
+  border-radius: 5%;
+  margin-top: 150px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 #email{
@@ -109,18 +96,15 @@ h2{
 
 #video{
   position: relative;
-  width:50%;
-  margin-left: 25%;
-  margin-right: 25%;
+  width:60%;
+  margin-left: 22%;
+  margin-right: 18%;
   margin-top: 20px;
 }
 
 .grid{
   display: flex;
   margin-top: 20px;
-  margin-bottom: 20px;
-  width: 100%;
-  height: 20%;
 }
 
 .icon{
@@ -132,10 +116,7 @@ h2{
   color: darkorange;
 }
 
-#features{
-  height: 60%;
-  width: 100%;
-}
+
 
 .fa, .fas{
   font-weight: 900;
@@ -154,7 +135,40 @@ h3{
   font-size: 25px;
 }
 
+h2{
+  text-align: center;
+}
+
 p{
 
-margin: 0;
+}
+
+#Pricing{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.price-tag{
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  margin-top: 20px;
+  width: 30%;
+  text-align: center;
+}
+
+.price-image{
+  width: 100%;
+
+}
+
+.price-image-cornet{
+  height: 50%;
+  width: 100%;
+}
+
+.price-image-c{
+  width: 100%;
+  height: 50%;
 }
